@@ -119,7 +119,15 @@ The project demonstrates core concepts of **Industrial Automation**, **Digital T
 
 # 📷 Project Screenshots
 
-Screenshots will be uploaded in the **screenshots/** folder.
+## 📸 Project Demonstration
+
+### Digital Twin Running in Real-Time
+
+<p align="center">
+<img src="docs/images/digital-twin-demo.png" width="900">
+</p>
+
+**Figure 1:** Real-time synchronization between Siemens TIA Portal (PID Compact) and Factory I/O during closed-loop level control.
 
 Example:
 
