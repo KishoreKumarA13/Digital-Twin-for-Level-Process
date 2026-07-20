@@ -354,6 +354,18 @@ Example:
 | Development Tool | Siemens TIA Portal |
 | Controller | PID Compact |
 | Academic Year | 2026 |
+# 🧠 Engineering Concepts Applied
+
+- Digital Twin
+- Closed Loop Process Control
+- PID Control
+- PLC Programming
+- Industrial Automation
+- Industrial Ethernet Communication
+- Virtual Commissioning
+- Process Instrumentation
+- Factory I/O Simulation
+- Industry 4.0 Concepts
 # ⭐ Project Summary
 
 This project demonstrates the implementation of a Digital Twin for a real-time industrial level control process using Siemens S7-1200 PLC, TIA Portal, and Factory I/O. Built upon a Siemens/Factory I/O sample application, the project was enhanced through PLC configuration, PID Compact tuning, Industrial Ethernet communication setup, system validation, and performance analysis. The implementation demonstrates practical concepts of industrial automation, virtual commissioning, and Industry 4.0.
