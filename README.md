@@ -178,7 +178,6 @@ Example:
 ✔ Achieved stable synchronization between Set Point (SP) and Process Variable (PV).
 
 ✔ Demonstrated Industrial Automation concepts using virtual commissioning.
----
 
 ## 📸 Project Gallery
 
