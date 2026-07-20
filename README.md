@@ -294,7 +294,7 @@ Anna University, Chennai
 - LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN/
   ---
 
-If you found this project useful, please consider ⭐ starring the repository.
+
 
 ## 🙏 Acknowledgement
 
@@ -303,3 +303,9 @@ This project was developed as part of my academic Digital Twin coursework.
 The implementation was based on a Siemens TIA Portal and Factory I/O sample project, which I further studied, configured, modified, and enhanced to better understand Industrial Automation, Digital Twin concepts, PLC programming, and PID-based level control.
 
 I sincerely thank my faculty members for their continuous guidance and support throughout the project.
+
+---
+
+⭐ Thank you for visiting this repository.
+
+If you would like to discuss Industrial Automation, PLC Programming, Digital Twin Technologies, or Embedded Systems, feel free to connect with me.
