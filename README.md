@@ -144,14 +144,17 @@ Example:
 
 ---
 
-# 📊 Results
+## 📊 Results
 
-- Successfully established communication between Siemens PLC and Factory I/O.
-- Implemented real-time PID-based level control.
-- Achieved stable synchronization between the physical controller and the Digital Twin.
-- Demonstrated virtual commissioning of an industrial level process.
+✔ Successfully developed a Digital Twin for a real-time level process.
 
----
+✔ Established real-time communication between Siemens S7-1200 PLC and Factory I/O.
+
+✔ Implemented PID Compact controller for maintaining the desired tank level.
+
+✔ Achieved stable synchronization between Set Point (SP) and Process Variable (PV).
+
+✔ Demonstrated Industrial Automation concepts using virtual commissioning.
 
 # 🚀 Future Scope
 
