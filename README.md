@@ -63,7 +63,37 @@ My contributions include:
 - PID Compact Technology Object
 
 ---
+# 🏗️ System Architecture
 
+```text
+                   ┌───────────────────────────┐
+                   │      Siemens TIA Portal   │
+                   │ PLC Programming & PID     │
+                   │ Compact Configuration     │
+                   └─────────────┬─────────────┘
+                                 │
+                         Download Program
+                                 │
+                                 ▼
+                   ┌───────────────────────────┐
+                   │    Siemens S7-1200 PLC    │
+                   │     PID Compact Block     │
+                   └─────────────┬─────────────┘
+                                 │
+                   Industrial Ethernet (TCP/IP)
+                                 │
+                                 ▼
+                   ┌───────────────────────────┐
+                   │        Factory I/O        │
+                   │ Virtual Level Process     │
+                   │ Tank • Fill Valve • PV    │
+                   └─────────────┬─────────────┘
+                                 ▲
+                                 │
+                       Process Variable (PV)
+                                 │
+                                 └────────────── Feedback Loop
+```
 # ⚙️ Technologies
 
 - PLC Programming
