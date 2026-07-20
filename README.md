@@ -1,6 +1,9 @@
 # Digital Twin for Level Process
 
 ### Real-Time Level Control using Siemens S7-1200 PLC, TIA Portal, Factory I/O and PID Compact
+<p align="center">
+  <img src="docs/images/digital-twin-demo.png" width="900">
+</p>
 
 ![GitHub](https://img.shields.io/badge/Project-Digital%20Twin-blue)
 ![PLC](https://img.shields.io/badge/PLC-Siemens%20S7--1200-green)
