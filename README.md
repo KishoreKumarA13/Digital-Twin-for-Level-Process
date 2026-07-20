@@ -62,13 +62,17 @@ This project was developed using a Siemens/Factory I/O sample application as the
 - PID Compact Technology Object
   ## ⚙ Technologies Used
 
-- PLC Programming
-- PID Control
-- Factory I/O Simulation
-- Digital Twin
-- Industrial Ethernet
-- Process Automation
-- Industry 4.0
+![Siemens S7-1200](https://img.shields.io/badge/PLC-Siemens%20S7--1200-green?style=for-the-badge)
+
+![TIA Portal](https://img.shields.io/badge/Software-TIA%20Portal-blue?style=for-the-badge)
+
+![Factory I/O](https://img.shields.io/badge/Simulation-Factory%20I/O-orange?style=for-the-badge)
+
+![PID Compact](https://img.shields.io/badge/Control-PID%20Compact-purple?style=for-the-badge)
+
+![Industrial Ethernet](https://img.shields.io/badge/Communication-Industrial%20Ethernet-red?style=for-the-badge)
+
+![Digital Twin](https://img.shields.io/badge/Digital%20Twin-Industry%204.0-success?style=for-the-badge)
   # 🏗️ System Architecture
 
 ```text
@@ -158,6 +162,24 @@ This closed-loop implementation enables real-time monitoring, controller tuning,
 - Real-Time Process Monitoring
 - Virtual Commissioning
 - Industry 4.0 Demonstration
+  ## 📂 Repository Structure
+
+```text
+Digital-Twin-for-Level-Process
+│
+├── README.md
+├── LICENSE
+│
+└── docs
+    └── images
+        ├── digital-twin-demo.png
+        ├── pid-monitoring.png
+        ├── tank-level-control.png
+        ├── driver-configuration.png
+        ├── tank2-overview.png
+        ├── system-overview.png
+        └── tank3-overview.png
+```
   # 📸 Project Gallery
 
 ## 1️⃣ Digital Twin Demonstration
@@ -287,21 +309,7 @@ This closed-loop implementation enables real-time monitoring, controller tuning,
 | Simulation | Factory I/O |
 | Controller | PID Compact |
 | Academic Year | 2026 |
-## 📊 Repository Information
 
-| Item | Details |
-|------|---------|
-| Project Type | Academic Mini Project |
-| Domain | Industrial Automation |
-| Control Strategy | PID Control |
-| Digital Twin Platform | Factory I/O |
-| PLC Platform | Siemens S7-1200 |
-| Programming Environment | TIA Portal |
-| Communication | Industrial Ethernet |
-| Development Year | 2026 |
-## ⭐ Project Summary
-
-This project presents the implementation of a Digital Twin for a real-time industrial level control process using Siemens S7-1200 PLC, TIA Portal, and Factory I/O. Based on a Siemens/Factory I/O sample application, the project was enhanced through PLC configuration, PID Compact tuning, Industrial Ethernet communication setup, testing, and performance validation. The implementation demonstrates practical concepts of industrial automation, digital twin technology, virtual commissioning, and Industry 4.0.
 ## 👨‍💻 Author
 
 **Kishore Kumar A**
