@@ -4,6 +4,15 @@
 <p align="center">
   <img src="docs/images/digital-twin-demo.png" width="900">
 </p>
+> [!NOTE]
+> ### 🚀 Project Highlights
+>
+> - Digital Twin implementation for a real-time level process.
+> - Siemens S7-1200 PLC with PID Compact controller.
+> - Factory I/O based virtual industrial process.
+> - Industrial Ethernet communication.
+> - Closed-loop PID level control.
+> - Virtual commissioning using Industry 4.0 concepts.
 
 ![GitHub](https://img.shields.io/badge/Project-Digital%20Twin-blue)
 ![PLC](https://img.shields.io/badge/PLC-Siemens%20S7--1200-green)
