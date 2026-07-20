@@ -74,6 +74,18 @@ My contributions include:
 - Industry 4.0
 
 ---
+# 🧠 Skills Demonstrated
+
+- PLC Programming
+- PID Control
+- Industrial Automation
+- Process Control
+- Digital Twin Implementation
+- Industrial Ethernet Communication
+- Factory I/O Simulation
+- TIA Portal Configuration
+- Process Monitoring
+- Virtual Commissioning
 
 # 🏗️ System Architecture
 
@@ -168,19 +180,38 @@ Example:
 ✔ Demonstrated Industrial Automation concepts using virtual commissioning.
 ---
 
-# 📸 Project Gallery
+## 📸 Project Gallery
 
-### Factory I/O Digital Twin
+### 🖥️ TIA Portal - PID Compact Monitoring
 
-*(Screenshots of Factory I/O simulation will be added here.)*
+<p align="center">
+  <img src="docs/images/pid-monitoring.png" width="700">
+</p>
 
-### Siemens TIA Portal
+---
 
-*(Screenshots of PLC program and PID Compact monitoring will be added here.)*
+### 🏭 Factory I/O Digital Twin
 
-### Communication
+<p align="center">
+  <img src="docs/images/factoryio-tank.png" width="700">
+</p>
 
-*(Industrial Ethernet communication screenshots will be added here.)*
+---
+
+### 🌐 Communication Setup
+
+<p align="center">
+  <img src="docs/images/driver-configuration.png" width="700">
+</p>
+
+---
+
+### 📊 Tank Level Control
+
+<p align="center">
+  <img src="docs/images/tank-level-control.png" width="700">
+</p>
+
 
 # 🚀 Future Scope
 
@@ -202,6 +233,16 @@ Example:
 - Research Papers on Digital Twin Technology
 
 ---
+## 📌 Project Status
+
+| Status | Value |
+|---------|-------|
+| Project | Completed |
+| Platform | Siemens S7-1200 PLC |
+| Simulation | Factory I/O |
+| Development Tool | Siemens TIA Portal |
+| Controller | PID Compact |
+| Academic Year | 2026 |
 
 # 👨‍💻 Author
 
