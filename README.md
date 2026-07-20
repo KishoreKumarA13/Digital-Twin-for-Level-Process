@@ -104,18 +104,23 @@ The project demonstrates core concepts of **Industrial Automation**, **Digital T
 
 ---
 
-# ✨ Features
+# ✨ Key Features
 
-- Real-Time Digital Twin
-- PID Based Level Control
-- Siemens PLC Integration
-- Industrial Ethernet Communication
-- Factory I/O Simulation
-- Closed Loop Process Control
-- Industrial Process Visualization
-- Safe Virtual Commissioning
+✅ Digital Twin Implementation
 
----
+✅ PID-Based Closed Loop Level Control
+
+✅ Siemens S7-1200 PLC Programming
+
+✅ Factory I/O Virtual Process Simulation
+
+✅ Industrial Ethernet Communication
+
+✅ Real-Time Process Monitoring
+
+✅ Virtual Commissioning
+
+✅ Industry 4.0 Demonstration
 
 # 📷 Project Screenshots
 
