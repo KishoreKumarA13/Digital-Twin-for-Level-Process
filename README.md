@@ -93,6 +93,35 @@ My contributions include:
                        Process Variable (PV)
                                  │
                                  └────────────── Feedback Loop
+# 🔄 Project Workflow
+
+```text
+Start
+   │
+   ▼
+Set Desired Level (SP)
+   │
+   ▼
+TIA Portal downloads PLC Program
+   │
+   ▼
+PLC Reads Level Sensor (PV)
+   │
+   ▼
+PID Compact Calculates Output
+   │
+   ▼
+Control Fill Valve Opening
+   │
+   ▼
+Factory I/O Tank Level Changes
+   │
+   ▼
+Updated PV Sent Back to PLC
+   │
+   ▼
+Continuous Closed Loop Control
+```
 ```
 # ⚙️ Technologies
 
@@ -208,9 +237,20 @@ Example:
 ✔ Achieved stable synchronization between Set Point (SP) and Process Variable (PV).
 
 ✔ Demonstrated Industrial Automation concepts using virtual commissioning.
+# 📈 Performance Highlights
+
+| Parameter | Description |
+|-----------|-------------|
+| Controller | Siemens PID Compact |
+| PLC | Siemens S7-1200 |
+| Simulation Platform | Factory I/O |
+| Development Software | TIA Portal |
+| Communication | Industrial Ethernet |
+| Process | Closed Loop Level Control |
+| Feedback | Process Variable (PV) |
+| Control Input | Set Point (SP) |
 
 ## 📸 Project Gallery
-# 📸 Project Gallery
 
 ## 1️⃣ Digital Twin Demonstration
 
