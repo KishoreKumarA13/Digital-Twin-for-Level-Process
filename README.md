@@ -278,6 +278,18 @@ This closed-loop implementation enables real-time monitoring, controller tuning,
 | Simulation | Factory I/O |
 | Controller | PID Compact |
 | Academic Year | 2026 |
+## 📊 Repository Information
+
+| Item | Details |
+|------|---------|
+| Project Type | Academic Mini Project |
+| Domain | Industrial Automation |
+| Control Strategy | PID Control |
+| Digital Twin Platform | Factory I/O |
+| PLC Platform | Siemens S7-1200 |
+| Programming Environment | TIA Portal |
+| Communication | Industrial Ethernet |
+| Development Year | 2026 |
 ## ⭐ Project Summary
 
 This project presents the implementation of a Digital Twin for a real-time industrial level control process using Siemens S7-1200 PLC, TIA Portal, and Factory I/O. Based on a Siemens/Factory I/O sample application, the project was enhanced through PLC configuration, PID Compact tuning, Industrial Ethernet communication setup, testing, and performance validation. The implementation demonstrates practical concepts of industrial automation, digital twin technology, virtual commissioning, and Industry 4.0.
