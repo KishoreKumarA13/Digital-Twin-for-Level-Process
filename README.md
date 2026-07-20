@@ -155,6 +155,21 @@ Example:
 ✔ Achieved stable synchronization between Set Point (SP) and Process Variable (PV).
 
 ✔ Demonstrated Industrial Automation concepts using virtual commissioning.
+---
+
+# 📸 Project Gallery
+
+### Factory I/O Digital Twin
+
+*(Screenshots of Factory I/O simulation will be added here.)*
+
+### Siemens TIA Portal
+
+*(Screenshots of PLC program and PID Compact monitoring will be added here.)*
+
+### Communication
+
+*(Industrial Ethernet communication screenshots will be added here.)*
 
 # 🚀 Future Scope
 
