@@ -23,6 +23,20 @@
 ![Simulation](https://img.shields.io/badge/Simulation-Factory%20I%2FO-red)
 ![Control](https://img.shields.io/badge/Control-PID%20Compact-purple)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+## 📑 Table of Contents
+
+- [Project Overview](#project-overview)
+- [My Contribution](#my-contribution)
+- [System Architecture](#system-architecture)
+- [Working Principle](#working-principle)
+- [Hardware & Software](#hardware--software-used)
+- [PLC I/O Mapping](#plc-io-mapping)
+- [Project Gallery](#project-gallery)
+- [Results](#results)
+- [Future Improvements](#future-improvements)
+- [Acknowledgement](#acknowledgement)
+  
 ## 📌 Project Overview
 
 This project demonstrates the implementation of a **Digital Twin for a real-time industrial level control process** using **Siemens S7-1200 PLC**, **TIA Portal**, and **Factory I/O**.
