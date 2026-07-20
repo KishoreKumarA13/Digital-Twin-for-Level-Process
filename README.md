@@ -4,6 +4,7 @@
 <p align="center">
   <img src="docs/images/digital-twin-demo.png" width="900">
 </p>
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 > [!NOTE]
 > ## 🚀 Project Highlights
 >
