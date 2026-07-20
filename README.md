@@ -11,59 +11,56 @@
 ![Simulation](https://img.shields.io/badge/Simulation-Factory%20I%2FO-red)
 ![Control](https://img.shields.io/badge/Control-PID%20Compact-purple)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
----
-
 ## 📌 Project Overview
 
-This project demonstrates the implementation of a **Digital Twin for a real-time level process** using **Siemens S7-1200 PLC**, **TIA Portal**, and **Factory I/O**.
+This project demonstrates the implementation of a **Digital Twin for a real-time industrial level control process** using **Siemens S7-1200 PLC**, **TIA Portal**, and **Factory I/O**.
 
-A virtual industrial tank was developed in Factory I/O and synchronized with the Siemens PLC through Industrial Ethernet. The PLC executes a **PID Compact** controller to regulate the liquid level by continuously comparing the **Set Point (SP)** and **Process Variable (PV)**, thereby achieving real-time closed-loop level control.
+A virtual level control process available in Factory I/O was configured and synchronized with a Siemens S7-1200 PLC through **Industrial Ethernet communication**. The **PID Compact Technology Object** was configured and tuned to maintain the desired liquid level by continuously comparing the **Set Point (SP)** and **Process Variable (PV)**.
 
-The project demonstrates core concepts of **Industrial Automation**, **Digital Twin Technology**, **Process Control**, and **Industry 4.0**.
+The project demonstrates practical concepts of **Industrial Automation**, **Digital Twin Technology**, **Closed-Loop Process Control**, **Virtual Commissioning**, and **Industry 4.0**.
+## 👨‍💻 My Contribution
 
----
-# 👨‍💻 My Contribution
+This project was developed using a Siemens/Factory I/O sample application as the foundation and enhanced through PLC configuration, PID implementation, Industrial Ethernet communication, testing, and system validation.
 
-This project was developed by enhancing an existing Siemens/Factory I/O sample application.
-
-My contributions include:
+### My contributions include
 
 - Configured the Siemens S7-1200 PLC project in TIA Portal.
-- Implemented and validated PID Compact based level control.
-- Established real-time communication between TIA Portal and Factory I/O.
+- Configured and tuned the PID Compact Technology Object.
+- Established Industrial Ethernet communication between TIA Portal and Factory I/O.
 - Configured Process Variable (PV), Set Point (SP), and controller parameters.
-- Performed testing, tuning, and validation of the Digital Twin.
-- Documented the implementation and analyzed the system performance.
-# 🎯 Objectives
+- Performed controller tuning and closed-loop performance validation.
+- Analysed system behaviour under different operating conditions.
+- Documented the implementation and project outcomes.
+ ## 🎯 Objectives
 
-- Develop a Digital Twin of a real-time level process.
+- Develop a Digital Twin of an industrial level process.
 - Implement PID-based closed-loop level control.
 - Integrate Siemens S7-1200 PLC with Factory I/O.
-- Establish Industrial Ethernet communication.
-- Visualize real-time process behaviour.
-- Validate Digital Twin operation using industrial automation tools.
-
----
-
-# 🛠️ Hardware Used
+- Configure Industrial Ethernet communication.
+- Monitor and validate real-time process behaviour.
+- Demonstrate virtual commissioning concepts.
+  ## 🛠 Hardware Used
 
 - Siemens S7-1200 PLC
 - PLC Trainer Kit
-- Ethernet Communication
+- Ethernet Communication Interface
 - Personal Computer
-
----
-
-# 💻 Software Used
+  ## 💻 Software Used
 
 - Siemens TIA Portal
 - Factory I/O
 - Siemens PLCSIM
 - PID Compact Technology Object
+  ## ⚙ Technologies Used
 
----
-# 🏗️ System Architecture
+- PLC Programming
+- PID Control
+- Factory I/O Simulation
+- Digital Twin
+- Industrial Ethernet
+- Process Automation
+- Industry 4.0
+  # 🏗️ System Architecture
 
 ```text
                    ┌───────────────────────────┐
@@ -93,6 +90,7 @@ My contributions include:
                        Process Variable (PV)
                                  │
                                  └────────────── Feedback Loop
+```
 # 🔄 Project Workflow
 
 ```text
@@ -122,135 +120,36 @@ Updated PV Sent Back to PLC
    ▼
 Continuous Closed Loop Control
 ```
-```
-# ⚙️ Technologies
+## ⚙️ Working Principle
 
-- PLC Programming
-- PID Control
-- Industrial Ethernet
-- Digital Twin
-- Process Control
-- Industry 4.0
+The Digital Twin system simulates a real-time industrial liquid level control process by integrating **Factory I/O**, **Siemens S7-1200 PLC**, and **TIA Portal**.
 
----
-# 🧠 Skills Demonstrated
+1. The virtual tank process is created in **Factory I/O**, where a level sensor continuously measures the liquid level and provides the **Process Variable (PV)**.
 
-- PLC Programming
-- PID Control
-- Industrial Automation
-- Process Control
+2. The desired liquid level is entered as the **Set Point (SP)** through the operator interface.
+
+3. Factory I/O exchanges real-time process data with the **Siemens S7-1200 PLC** using **Industrial Ethernet communication**.
+
+4. Inside **TIA Portal**, the **PID Compact Technology Object** continuously compares the Process Variable (PV) with the Set Point (SP).
+
+5. Based on the calculated control error, the PID controller automatically adjusts the opening of the **Fill Valve** to maintain the desired liquid level.
+
+6. The updated valve position is transmitted back to Factory I/O, where the virtual process responds immediately, creating a closed-loop feedback system.
+
+7. The Process Variable continuously follows the Set Point, demonstrating stable real-time level control and Digital Twin synchronization.
+
+This closed-loop implementation enables real-time monitoring, controller tuning, process validation, and virtual commissioning without requiring a physical industrial plant.
+## ✨ Key Features
+
 - Digital Twin Implementation
+- PID-Based Closed Loop Level Control
+- Siemens S7-1200 PLC Programming
+- Factory I/O Virtual Process Simulation
 - Industrial Ethernet Communication
-- Factory I/O Simulation
-- TIA Portal Configuration
-- Process Monitoring
+- Real-Time Process Monitoring
 - Virtual Commissioning
-
-# 🏗️ System Architecture
-
-```
-               +-------------------------+
-               |     Siemens PLC         |
-               |      S7-1200            |
-               +------------+------------+
-                            |
-                     Industrial Ethernet
-                            |
-                            |
-               +------------v------------+
-               |      Factory I/O        |
-               |   Virtual Tank Process  |
-               +------------+------------+
-                            |
-                     Level Feedback (PV)
-                            |
-                            |
-               +------------v------------+
-               |      PID Compact        |
-               +------------+------------+
-                            |
-                     Fill / Drain Valve
-```
-
----
-
-# 🔄 Working Principle
-
-1. The operator enters the desired **Set Point (SP)**.
-2. Factory I/O continuously measures the **Process Variable (PV)**.
-3. The Siemens PLC executes the **PID Compact** controller.
-4. The controller calculates the control output.
-5. Fill and discharge valves regulate the tank level.
-6. Factory I/O updates the Digital Twin in real time.
-7. The process repeats continuously until the desired level is maintained.
-
----
-
-# ✨ Key Features
-
-✅ Digital Twin Implementation
-
-✅ PID-Based Closed Loop Level Control
-
-✅ Siemens S7-1200 PLC Programming
-
-✅ Factory I/O Virtual Process Simulation
-
-✅ Industrial Ethernet Communication
-
-✅ Real-Time Process Monitoring
-
-✅ Virtual Commissioning
-
-✅ Industry 4.0 Demonstration
-
-# 📷 Project Screenshots
-
-## 📸 Project Demonstration
-
-### Digital Twin Running in Real-Time
-
-<p align="center">
-<img src="docs/images/digital-twin-demo.png" width="900">
-</p>
-
-**Figure 1:** Real-time synchronization between Siemens TIA Portal (PID Compact) and Factory I/O during closed-loop level control.
-
-Example:
-
-- TIA Portal PID Compact
-- Factory I/O Virtual Tank
-- Driver Configuration
-- Communication Setup
-- Digital Twin Implementation
-
----
-
-## 📊 Results
-
-✔ Successfully developed a Digital Twin for a real-time level process.
-
-✔ Established real-time communication between Siemens S7-1200 PLC and Factory I/O.
-
-✔ Implemented PID Compact controller for maintaining the desired tank level.
-
-✔ Achieved stable synchronization between Set Point (SP) and Process Variable (PV).
-
-✔ Demonstrated Industrial Automation concepts using virtual commissioning.
-# 📈 Performance Highlights
-
-| Parameter | Description |
-|-----------|-------------|
-| Controller | Siemens PID Compact |
-| PLC | Siemens S7-1200 |
-| Simulation Platform | Factory I/O |
-| Development Software | TIA Portal |
-| Communication | Industrial Ethernet |
-| Process | Closed Loop Level Control |
-| Feedback | Process Variable (PV) |
-| Control Input | Set Point (SP) |
-
-## 📸 Project Gallery
+- Industry 4.0 Demonstration
+  # 📸 Project Gallery
 
 ## 1️⃣ Digital Twin Demonstration
 
@@ -319,65 +218,82 @@ Example:
 </p>
 
 **Figure 7:** Tank 3 Digital Twin demonstration.
+## 📈 Performance Highlights
 
-
-
-
-
-# 🚀 Future Scope
-
-- SCADA Integration
-- Cloud-Based Digital Twin
-- IIoT Connectivity
-- AI-Based Predictive Maintenance
-- Multi-Tank Process Automation
-- Industrial Data Analytics
-
----
-
-# 📚 References
-
-- Siemens S7-1200 System Manual
-- Siemens TIA Portal Documentation
-- Factory I/O Documentation
-- IEC 61131-3 Standard
-- Research Papers on Digital Twin Technology
-
----
-## 📌 Project Status
-
-| Status | Value |
-|---------|-------|
-| Project | Completed |
-| Platform | Siemens S7-1200 PLC |
-| Simulation | Factory I/O |
-| Development Tool | Siemens TIA Portal |
+| Parameter | Description |
+|-----------|-------------|
+| PLC | Siemens S7-1200 |
 | Controller | PID Compact |
-| Academic Year | 2026 |
-# 🧠 Engineering Concepts Applied
+| Development Software | Siemens TIA Portal |
+| Simulation Platform | Factory I/O |
+| Communication | Industrial Ethernet |
+| Process | Closed Loop Level Control |
+| Feedback | Process Variable (PV) |
+| Control Input | Set Point (SP) |
+## 📊 Results
+
+- Successfully implemented a Digital Twin for a real-time industrial level process.
+- Established reliable communication between Siemens S7-1200 PLC and Factory I/O.
+- Configured and validated PID Compact for stable level control.
+- Achieved synchronization between Process Variable (PV) and Set Point (SP).
+- Demonstrated virtual commissioning using industrial automation tools.
+  ## 🧠 Skills Demonstrated
+
+- PLC Programming
+- PID Control
+- Industrial Automation
+- Factory I/O Simulation
+- Industrial Ethernet Communication
+- Digital Twin Implementation
+- Process Monitoring
+- Virtual Commissioning
+- TIA Portal Configuration
+  ## 🧠 Engineering Concepts Applied
 
 - Digital Twin
 - Closed Loop Process Control
 - PID Control
 - PLC Programming
 - Industrial Automation
-- Industrial Ethernet Communication
+- Industrial Ethernet
 - Virtual Commissioning
 - Process Instrumentation
-- Factory I/O Simulation
-- Industry 4.0 Concepts
-# ⭐ Project Summary
+- Industry 4.0
+  ## 🚀 Future Scope
 
-This project demonstrates the implementation of a Digital Twin for a real-time industrial level control process using Siemens S7-1200 PLC, TIA Portal, and Factory I/O. Built upon a Siemens/Factory I/O sample application, the project was enhanced through PLC configuration, PID Compact tuning, Industrial Ethernet communication setup, system validation, and performance analysis. The implementation demonstrates practical concepts of industrial automation, virtual commissioning, and Industry 4.0.
+- SCADA Integration
+- Web HMI Development
+- Cloud-Based Digital Twin
+- IIoT Connectivity
+- AI-Based Predictive Maintenance
+- Multi-Tank Process Automation
+- Industrial Data Analytics
+  ## 📌 Project Status
 
-# 👨‍💻 Author
+| Item | Status |
+|------|--------|
+| Project | Completed |
+| PLC | Siemens S7-1200 |
+| Development Tool | TIA Portal |
+| Simulation | Factory I/O |
+| Controller | PID Compact |
+| Academic Year | 2026 |
+## ⭐ Project Summary
+
+This project presents the implementation of a Digital Twin for a real-time industrial level control process using Siemens S7-1200 PLC, TIA Portal, and Factory I/O. Based on a Siemens/Factory I/O sample application, the project was enhanced through PLC configuration, PID Compact tuning, Industrial Ethernet communication setup, testing, and performance validation. The implementation demonstrates practical concepts of industrial automation, digital twin technology, virtual commissioning, and Industry 4.0.
+## 👨‍💻 Author
 
 **Kishore Kumar A**
 
-Final Year  
-Electronics and Instrumentation Engineering  
-Anna University
+Final-Year Electronics and Instrumentation Engineering Student
 
----
+Madras Institute of Technology (MIT Campus)
 
-## ⭐ If you found this project useful, consider giving it a Star!
+Anna University, Chennai
+## 🔗 Connect with Me
+
+- GitHub: https://github.com/KishoreKumarA13
+- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN/
+  ---
+
+If you found this project useful, please consider ⭐ starring the repository.
