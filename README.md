@@ -180,36 +180,78 @@ Example:
 ✔ Demonstrated Industrial Automation concepts using virtual commissioning.
 
 ## 📸 Project Gallery
+# 📸 Project Gallery
 
-### 🖥️ TIA Portal - PID Compact Monitoring
+## 1️⃣ Digital Twin Demonstration
 
 <p align="center">
-  <img src="docs/images/pid-monitoring.png" width="700">
+  <img src="docs/images/digital-twin-demo.png" width="850"/>
 </p>
+
+**Figure 1:** Real-time synchronization between Siemens TIA Portal and Factory I/O.
 
 ---
 
-### 🏭 Factory I/O Digital Twin
+## 2️⃣ PID Compact Monitoring
 
 <p align="center">
-  <img src="docs/images/factoryio-tank.png" width="700">
+  <img src="docs/images/pid-monitoring.png" width="850"/>
 </p>
+
+**Figure 2:** PID Compact tuning and process response.
 
 ---
 
-### 🌐 Communication Setup
+## 3️⃣ Factory I/O Tank Level Control
 
 <p align="center">
-  <img src="docs/images/driver-configuration.png" width="700">
+  <img src="docs/images/tank-level-control.png" width="850"/>
 </p>
+
+**Figure 3:** Tank level with synchronized Set Point (SP) and Process Variable (PV).
 
 ---
 
-### 📊 Tank Level Control
+## 4️⃣ PLC Communication Configuration
 
 <p align="center">
-  <img src="docs/images/tank-level-control.png" width="700">
+  <img src="docs/images/driver-configuration.png" width="850"/>
 </p>
+
+**Figure 4:** Communication mapping between Siemens S7-1200 PLC and Factory I/O.
+
+---
+
+## 5️⃣ Tank 2 Simulation
+
+<p align="center">
+  <img src="docs/images/tank2-overview.png" width="850"/>
+</p>
+
+**Figure 5:** Digital Twin representation of Tank 2.
+
+---
+
+## 6️⃣ Overall Plant View
+
+<p align="center">
+  <img src="docs/images/system-overview.png" width="850"/>
+</p>
+
+**Figure 6:** Complete Factory I/O level control setup.
+
+---
+
+## 7️⃣ Tank 3 Simulation
+
+<p align="center">
+  <img src="docs/images/tank3-overview.png" width="850"/>
+</p>
+
+**Figure 7:** Tank 3 Digital Twin demonstration.
+
+
+
 
 
 # 🚀 Future Scope
