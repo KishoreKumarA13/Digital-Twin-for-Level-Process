@@ -23,7 +23,18 @@ A virtual industrial tank was developed in Factory I/O and synchronized with the
 The project demonstrates core concepts of **Industrial Automation**, **Digital Twin Technology**, **Process Control**, and **Industry 4.0**.
 
 ---
+# 👨‍💻 My Contribution
 
+This project was developed by enhancing an existing Siemens/Factory I/O sample application.
+
+My contributions include:
+
+- Configured the Siemens S7-1200 PLC project in TIA Portal.
+- Implemented and validated PID Compact based level control.
+- Established real-time communication between TIA Portal and Factory I/O.
+- Configured Process Variable (PV), Set Point (SP), and controller parameters.
+- Performed testing, tuning, and validation of the Digital Twin.
+- Documented the implementation and analyzed the system performance.
 # 🎯 Objectives
 
 - Develop a Digital Twin of a real-time level process.
