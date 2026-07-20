@@ -288,11 +288,14 @@ Final-Year Electronics and Instrumentation Engineering Student
 Madras Institute of Technology (MIT Campus)
 
 Anna University, Chennai
+
 ## 🔗 Connect with Me
 
-- GitHub: https://github.com/KishoreKumarA13
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN/
-  ---
+🐙 **GitHub:** [KishoreKumarA13](https://github.com/KishoreKumarA13)
+
+💼 **LinkedIn:** [Kishore Kumar A](https://www.linkedin.com/in/kishore-kumar-a-914018379)
+
+📧 **Email:** <kishorekumar020413@gmail.com>
 
 
 
